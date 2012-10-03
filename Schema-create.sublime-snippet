@@ -1,5 +1,9 @@
 <snippet>
-    <content><![CDATA[Schema::create(${1:\$table}, ${2:\$callback});]]></content>
+    <content><![CDATA[Schema::create('${1:table}', function(\$table){
+	\$table->increments('id');
+	${2}
+	\$table->timestamps();
+});]]></content>
     <tabTrigger>Schema</tabTrigger>
     <scope>source.php</scope>
     <description>Laravel: Schema::create()</description>
