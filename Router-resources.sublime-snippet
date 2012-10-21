@@ -11,5 +11,5 @@ Route::delete('${1}s/(:any)', '${1}s@destroy');
 ]]></content>
     <tabTrigger>resource</tabTrigger>
     <scope>source.php</scope>
-    <description>Router Resources</description>
+    <description>Laravel: Resources</description>
 </snippet>
