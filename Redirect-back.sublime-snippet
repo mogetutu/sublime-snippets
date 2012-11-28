@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Redirect::back();]]></content>
+    <tabTrigger>Redirect</tabTrigger>
+    <scope>source.php</scope>
+    <description>Laravel: Redirect::back()</description>
+</snippet>
